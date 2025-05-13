@@ -33,7 +33,7 @@ body{
     box-shadow: 0 0 20px rgb(17, 54, 17);
     height: 190px;
     margin-bottom: 50px ;
-    margin-left: 140px;
+    margin-left: 142px;
 }
 form{
     padding-left: 100px;
@@ -81,5 +81,5 @@ a .link{
     color: blue;
 }
 .Cadastre-se{
-    padding-left: 100px;
+    padding-left: 10px;
 }
