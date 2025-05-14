@@ -13,3 +13,12 @@
     margin: auto;
 }
 
+body{
+    background-color: black;
+}
+
+
+a{
+    color: white;
+    background-color: white;
+}
