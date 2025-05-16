@@ -15,10 +15,73 @@
 
 body{
     background-color: black;
+    display: flex;
+    justify-content: center;
+    height:100vh;
+    align-items: center;
+}
+.container{
+    background-color: #ffffff;
+    display: flex;
+    padding: 20px;
+    width: 1500px;
+    height: 550px;
+    border-radius: 15px;
+    flex-direction: column;
+    box-shadow: #043c22 9px 9px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+}
+.input1{
+    justify-content: center;
+    height: 120px;
+   flex-direction: column
+   ;
 }
 
+.input2{
+    justify-content: center;
+    height: 120px;
+    flex-direction: column;
+}
+.input3{
+    justify-content: center;
+    height: 120px;
+    flex-direction: column;
+}
+  input{
+        width: 500px;
+        height: 40px;
+        border-radius: 5px;
+        flex-direction: column;
+        box-shadow: rgb(33, 32, 32) 2px 2px;
+}
+.esqueceu{
+    display: flex;
+    justify-content: left;
+    text-decoration: underline;
+    padding-top: 2px ;
+    padding-left: 2px;
+}
 
-a{
-    color: white;
-    background-color: white;
+.button {
+   display: flex;
+   justify-content:right ;
+   border-radius: 15px;
+   font-size: 15px;
+   padding: 10px 25px;
+}
+.button :hover{
+    background-color: #0d3b0a;
+
+}   
+
+.img{
+    display: flex;
+    justify-content: right;
+    padding-left: 1000px;
+    width: 500px;
+    height: 50px;
 }
